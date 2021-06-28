@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DirectoryWatcher": {
+      "commandName": "Project",
+      "commandLineArgs": "\"c:\\temp\\Test\\WatchHere\" \"*.csv|*.xml\" --oncreated \"notepad.exe {{filename}}\""
+    }
+  }
+}
